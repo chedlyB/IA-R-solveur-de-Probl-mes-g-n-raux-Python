@@ -1,0 +1,21 @@
+Unifier( [p,b,c,x,z,[f,a,z,b]] et  [p,y,z,y,c,w] ) 
+NULL
+?y/b
+?z/c
+?x/b
+NULL
+?w/[f,a,c,b]?w/[f,a,c,b]
+Unifier([p,x,[f,[g,x]],a] et [p,b,x,y,z])
+NULL
+?x/b
+ECHEC
+ECHEC
+Unifier([p,[f,a,x],x] et [p,[f,z,[f,z,d]],z])
+NULL
+NULL
+?z/a
+?x/[f,a,d]?x/[f,a,d]
+NULL   ?z/a   ?x/[f,a,d]
+ECHEC
+Unifier(x et [g,x])
+ECHEC
